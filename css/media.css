@@ -1,0 +1,443 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  /* header start */
+   .dd_menu {
+      min-width: 250px;
+      padding:0;
+     
+  }
+  .dd_menu[data-bs-popper] {
+      top: 38px;
+      left:0;
+  }
+
+  /* header end */
+
+  /* slider start */
+  .s_wrapper {
+    padding: 70px 0;
+  }
+
+  .s_wrapper h1{
+     font-size:26px; 
+  }
+
+  .s_wrapper p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+  .btn_submit {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+  .btn_submit:hover .btn_icon{
+    padding-left:10px;
+}
+   /* slider end */
+
+
+  /* service start */
+  .p_title p {
+    font-size: 15px;
+    margin-bottom:10px;
+  }
+
+  /* service end */
+
+  /* about us start */
+  .about_us {
+    padding: 50px 0;
+  }
+  .c_h1 {
+    margin-top: 10px !important;
+    margin-bottom: 10px;
+  }
+  .p_about1{
+    line-height: 22px;
+    font-size: 15px;
+  }
+  .p_about2 {
+    margin: 20px 0;
+    line-height: 22px;
+    font-size: 15px;
+  }
+  /* about us end */
+
+  /* choose us media css start */
+  .why_choose_us {
+    padding-bottom: 60px;
+  }
+	.choose_item {
+		text-align: center;
+	}
+  .c_icon{
+    margin-bottom: 6px;
+  }
+  .c_text {
+    margin-top: 12px;
+  }
+	/* choose us media css end */
+
+  /* our team start */
+  .our_team {
+    padding-bottom: 60px;
+  }
+  /* our team end */
+
+  /* price start */
+  .price_box {
+    margin-top: 40px;
+  }
+  /* price end */
+
+
+  /* alert media css start */
+  .about_btn{
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+	.a_text{
+		margin-bottom: 15px;
+		text-align: center !important;
+	}
+	.col_btn{
+		text-align: center !important;
+	}
+	/* alert media css end */
+
+
+
+
+/* testimonial start */
+.testimonial-btn-wrapper {
+  display: flex !important;
+  flex-direction: row !important;
+  margin-top: 15px;
+}
+.testimonial-prev, .testimonial-next {
+  margin: 10px 0;
+  transform: rotate(0deg);
+}
+.prev-icon, .next-icon {
+  margin: 0 26px;
+}
+.test-img::after {
+  left: 12px;
+  top: -2px;
+  font-size: 35px;
+}
+.tp1 {
+  margin: 15px 0;
+  font-size: 15px;
+}
+.tp2 {
+  font-size: 15px;
+}
+.client-review {
+  margin-top: 20px;
+}
+  /* testimonial  end */
+
+
+/* contact start */
+.c-form {
+  padding: 15px 40px;
+  }
+/* contact end */
+
+
+	/* footer contact start */
+	.cs-social {
+		margin-bottom: 55px;
+	}
+	.cs-social ul li a {
+		width: 36px;
+		height: 36px;
+		line-height: 36px;	
+	}
+	.footer-link ul li a{
+		font-size: 13px;
+	}
+	.f-text p{
+		font-size: 13px;
+	}
+	/* footer contact end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* Small devices (landscape phones, 576px and up) */
+   @media (min-width: 576px) and (max-width: 767.98px) { 
+    
+  
+ /* header start */
+ .dd_menu[data-bs-popper] {
+   top: 38px;
+   left: 0;
+   }
+  /* header end */
+     
+   /* slider start */
+   .s_wrapper {
+    padding: 100px 0;
+    }
+   .s_wrapper h1{
+     font-size: 40px; 
+    }
+
+   /* slider end */
+
+
+  /* service start */
+  .p_title p {
+    margin-bottom:20px;
+}
+  /* service end */
+
+  /* about us start */
+  .about_us {
+    padding: 60px 0;
+  }
+  .c_h1 {
+    margin-top: 10px !important;
+    margin-bottom: 10px;
+  }
+  .p_about1{
+    line-height: 22px;
+    font-size: 15px;
+  }
+  .p_about2 {
+    line-height: 22px;
+    font-size: 15px;
+  }
+  /* about us end */
+
+  /* why choose us start */
+  .why_choose_us {
+    padding-bottom: 70px;
+  }
+  .c_text {
+    margin-top: 15px;
+}
+  /* why choose us end */
+
+/* our team */
+.our_team {
+  padding-bottom: 70px;
+}
+/* our end */
+
+ /* price start */
+ .price_box {
+  margin-top: 40px;
+}
+/* price end */
+
+
+/* testimonial start */
+	.testimonial-btn-wrapper {
+		display: flex !important;
+		flex-direction: row !important;
+		margin-top: 15px;
+	}
+	.testimonial-prev, .testimonial-next {
+		margin: 15px 0;
+		transform: rotate(0deg);
+	}
+	.prev-icon, .next-icon {
+		margin: 0 26px;
+	}
+  .tp1 {
+    margin: 15px 0;
+  }
+	.client-review {
+		margin-top: 20px;
+	}
+/* testimonial  end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* Medium devices (tablets, 768px and up) */
+   @media (min-width: 768px) and (max-width: 991.98px) { 
+      
+ 
+  /* header start */
+  .dd_menu[data-bs-popper] {
+   top: 38px;
+   left: 0;
+   }
+  /* header end */
+
+  /* service start */
+  .p_title p {
+    margin-bottom: 30px;
+    }
+
+  /* service end */
+
+  /* about us start */
+  .about_us {
+    padding: 70px 0;
+  }
+  .c_h1 {
+    margin-bottom: 16px;
+  }
+  .p_about1{
+    line-height: 22px;
+    font-size: 15px;
+  }
+  .p_about2 {
+    margin: 15px 0;
+    line-height: 22px;
+    font-size: 15px;
+  }
+  /* about us end*/
+
+
+  /* why choose us start */
+  .c_icon i {
+    font-size: 50px;
+    margin-top: -12px;
+  }
+  .c_text {
+    margin-top: 15px;
+}
+  /* why choose us end */
+
+  /* our team */
+  .our_team {
+    padding-bottom: 80px;
+  }
+  /* our end */
+
+
+   /* price start */
+   .price_box {
+    margin-top: 40px;
+  }
+  /* price end */
+
+  
+/* testimonial start */
+	.test-img::after {
+		left: 5px;
+		top: -3px;
+		font-size: 35px;
+	}
+  .tp1 {
+    margin: 20px 0;
+  }
+	.client-review {
+		margin-top: 20px;
+	}
+/* testimonial end */
+
+
+
+
+
+
+
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+
+}
+
+
+/* // x-Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+
+
+}
+
+
+/* //  Extra Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+
+
+
+}
